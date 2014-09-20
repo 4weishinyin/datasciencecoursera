@@ -80,9 +80,12 @@ You may run the *_"run_analysis.R"_* script to perform the following:
  After the script is run, a file named *_FinalData.txt_* is created under the current working directory. The file uses long 
  descriptive column names and has a total of 180 rows (6 activities each being carried out by the 30 subject), each row contains 
  an activity name, a subject identifier, and 66 average measurements of the mean and the standard deviation for each measurement. 
- 
  For better on screen data display purpose,  *_FinalDataAcronym.txt_* is also created which uses acronym of the long descriptive 
- for output.  You may run the *_'load_data.R'_* script to load the above data for further analysis.
+ for output.  
+ 
+ *_'load_data.R'_* script is provided in case you want to to load the above data into R for further analysis. You may detach the 
+ above files to R's current working directory. Make sure you rename the detached files to *_FinalData.txt_* and *_FinalDataAcronym.txt_* 
+ accordingly before run the *_'load_data.R'_* script.
  
  
  
