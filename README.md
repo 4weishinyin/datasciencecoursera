@@ -55,23 +55,24 @@ _Note that_ features may be the raw signals measured, the derivations or the tra
     
    The complete list of descriptive variable names is available in 'CodeBook.txt'  
    
-   For column names that 
-         - match "BodyBody" pattern, the matched is substituted with "Body" (due to having typo in the data source)
-         - start with "t", the matched is substituted with "Time"
-         - start with "f", the matched is substituted with "Frequency"
-         - match "Gyro" pattern, the matched is substituted with "Gyroscope"
-         - match "Acc" pattern, the matched is substituted with "Accelerometer"
-         - match "Mag" pattern, the matched is substituted with "Magnitude"
-         - match "()" or "-" pattern, the matched is removed
-         - retain "X", "Y", "Z" character representing the various axial direction
+   For column names that
+    
+         1. match "BodyBody" pattern, the matched is substituted with "Body" 
+            due to the typo in the data source
+         2. start with "t", the matched is substituted with "Time"
+         3. start with "f", the matched is substituted with "Frequency"
+         4. match "Gyro" pattern, the matched is substituted with "Gyroscope"
+         5. match "Acc" pattern, the matched is substituted with "Accelerometer"
+         6. match "Mag" pattern, the matched is substituted with "Magnitude"
+         7. match "()" or "-" pattern, the matched is removed
+         8. retain "X", "Y", "Z" character representing the various axial direction
          
    For example; an original name of 'tBodyAccMeanY' will be transformed to 'TimeBodyAccelerometerMeanY'.         
                
- - From the merged data set, creates a second, independent tidy dataset. 
-   <<<<< This is project step 5 >>>>>   
+ - From the merged data set, creates a second, independent tidy dataset. (project step 5)   
    
- After the script is run, a file named "Final Data.txt" is created under the current working directory. The file has 180 rows, 
- the 6 activities each carried out by the 30 subjects, each row contains an activity name, a subject identifier,
+ After the script is run, a file named *_Final Data.txt_* is created under the current working directory. The file has total of 
+ 180 rows (6 activities each being carried out by the 30 subject), each row contains an activity name, a subject identifier,
  and 66 average measurements of the mean and the standard deviation for each measurement. 
 
  

@@ -99,8 +99,8 @@
 [64]  FrequencyBodyGyroscopeStandardDeviationZ            		  16     
 [65]  FrequencyBodyAccelerometerMagnitudeStandardDeviation        16    
 [66]  FrequencyBodyAccelerometerJerkMagnitudeStandardDeviation    16
-[67]  FrequencyBodyGyroscopeMagnitudeStandardDeviation            16
-[68]  FrequencyBodyGyroscopeJerkMagnitudeStandardDeviation        16
+[67]  FrequencyBodyGyroscopeMagnitudeStandardDeviation        16    
+[68]  FrequencyBodyGyroscopeJerkMagnitudeStandardDeviation        16    
 
 ** Note: [3] - [68] stores the computed average of each of the 66 measurements of 
 the mean and the standard deviation measurement per activity/subject. The field names 
