@@ -1,13 +1,21 @@
-# The data link below provided by the course website represents data collected from the accelerometers 
-# from the Samsung Galaxy S smartphone 
-  
+The purpose of this project is to collect, work with, and clean the dataset for later analysis. 
 
-      https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+The data link below provided by the course website represents data collected from the accelerometers 
+from the Samsung Galaxy S smartphone 
+  
+  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+This project delivers the following files:
+
+ - 'README.md'
  
- ## The purpose of this project is to collect, work with, and clean the data set for later analysis. 
-=========================================================================================================
-     
- You may run the "run_analysis.R" script that does the following:
+ - 'run_analysis.R' 
+ 
+ - 'CodeBook.md'
+ 
+----------------------------------------------------------------------------------------------------
+ 
+You may run the "run_analysis.R" script that does the following:
   
  - Download the zipped data file into "UCI HAR Dataset" folder under your current working directory.
  
@@ -48,14 +56,14 @@ _Note that_ features may be the raw signals measured, the derivations or the tra
    The complete list of descriptive variable names is available in 'CodeBook.txt'  
    
    For column names that 
-         * match "BodyBody" pattern, the matched is substituted with "Body" (due to having typo in the data source)
-         * start with "t", the matched is substituted with "Time"
-         * start with "f", the matched is substituted with "Frequency"
-         * match "Gyro" pattern, the matched is substituted with "Gyroscope"
-         * match "Acc" pattern, the matched is substituted with "Accelerometer"
-         * match "Mag" pattern, the matched is substituted with "Magnitude"
-         * match "()" or "-" pattern, the matched is removed
-         * retain "X", "Y", "Z" character representing the various axial direction
+         - match "BodyBody" pattern, the matched is substituted with "Body" (due to having typo in the data source)
+         - start with "t", the matched is substituted with "Time"
+         - start with "f", the matched is substituted with "Frequency"
+         - match "Gyro" pattern, the matched is substituted with "Gyroscope"
+         - match "Acc" pattern, the matched is substituted with "Accelerometer"
+         - match "Mag" pattern, the matched is substituted with "Magnitude"
+         - match "()" or "-" pattern, the matched is removed
+         - retain "X", "Y", "Z" character representing the various axial direction
          
    For example; an original name of 'tBodyAccMeanY' will be transformed to 'TimeBodyAccelerometerMeanY'.         
                
@@ -68,13 +76,5 @@ _Note that_ features may be the raw signals measured, the derivations or the tra
 
  
  
- This project includes the following files:
- =========================================
-
- - 'README.md'
- 
- - 'run_analysis.R' 
- 
- - 'CodeBook.md'
  
 

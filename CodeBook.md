@@ -108,15 +108,15 @@ shown at the data dictionary above, [3] -[68], are renames of the original data 
 based on the following mechanism:
    
    For column names that 
-         * match "BodyBody" pattern, the matched is substituted with "Body" 
+         - match "BodyBody" pattern, the matched is substituted with "Body" 
            due to the typo in the data source
-         * start with "t", the matched is substituted with "Time"
-         * start with "f", the matched is substituted with "Frequency"
-         * match "Gyro" pattern, the matched is substituted with "Gyroscope"
-         * match "Acc" pattern, the matched is substituted with "Accelerometer"
-         * match "Mag" pattern, the matched is substituted with "Magnitude"
-         * match "()" or "-" pattern, the matched is removed
-         * retain "X", "Y", "Z" character representing the various axial direction
+         - start with "t", the matched is substituted with "Time"
+         - start with "f", the matched is substituted with "Frequency"
+         - match "Gyro" pattern, the matched is substituted with "Gyroscope"
+         - match "Acc" pattern, the matched is substituted with "Accelerometer"
+         - match "Mag" pattern, the matched is substituted with "Magnitude"
+         - match "()" or "-" pattern, the matched is removed
+         - retain "X", "Y", "Z" character representing the various axial direction
 
     As an example, the original name of the field name [4] was 'tBodyAccMeanY', it's 
     then transformed to 'TimeBodyAccelerometerMeanY'. 
