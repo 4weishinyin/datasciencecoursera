@@ -13,9 +13,15 @@ This project delivers the following files:
  
  - 'CodeBook.md'
  
+ - 'FinalData.txt'         
+ 
+ - 'FinalDataAcronym.txt' 
+ 
+ - 'load_data.R' 
+ 
 ----------------------------------------------------------------------------------------------------
  
-You may run the "run_analysis.R" script that does the following:
+You may run the *_"run_analysis.R"_* script to perform the following:
   
  - Download the zipped data file into "UCI HAR Dataset" folder under your current working directory.
  
@@ -24,7 +30,7 @@ You may run the "run_analysis.R" script that does the following:
  - Read into R the files as follows:
  
      1. features.txt        - 561 rows, each contains the feature identifier (rage: 1-561) and the name of the identifier.
-_Note that_ features may be the raw signals measured, the derivations or the transformations of some of the signals measured. 
+*_Note that_* features may be the raw signals measured, the derivations or the transformations of some of the signals measured. 
                                 
  	 2. activity_labels.txt - 6 rows, each contains the activity identifier (range: 1-6) and the activity label.
  	 
@@ -71,10 +77,12 @@ _Note that_ features may be the raw signals measured, the derivations or the tra
                
  - From the merged data set, creates a second, independent tidy dataset. (project step 5)   
    
- After the script is run, a file named *_Final Data.txt_* is created under the current working directory. The file has total of 
- 180 rows (6 activities each being carried out by the 30 subject), each row contains an activity name, a subject identifier,
- and 66 average measurements of the mean and the standard deviation for each measurement. 
-
+ After the script is run, a file named *_FinalData.txt_* is created under the current working directory. The file uses long 
+ descriptive column names and has a total of 180 rows (6 activities each being carried out by the 30 subject), each row contains 
+ an activity name, a subject identifier, and 66 average measurements of the mean and the standard deviation for each measurement. 
+ 
+ For better on screen data display purpose,  *_FinalDataAcronym.txt_* is also created which uses acronym of the long descriptive 
+ for output.  You may run the *_'load_data.R'_* script to load the above data for further analysis.
  
  
  

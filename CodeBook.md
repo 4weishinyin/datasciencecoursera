@@ -121,8 +121,8 @@ based on the following mechanism:
 
     As an example, the original name of the field name [4] was 'tBodyAccMeanY', it's 
     then transformed to 'TimeBodyAccelerometerMeanY'. 
-
-** Also, the following information was extracted from the link provided by the course 
+ 
+Also, the following information was extracted from the link provided by the course 
 to assit readers understanding the terminologies used on the measurement data collected 
 from the accelerometers from the Samsung Galaxy S smartphone.
  

@@ -114,5 +114,12 @@ names(finalSet) <- gsub("-std([-])?", "StandardDeviation", names(finalSet))
 ##  proj step 5: from the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 #
 
-finalData <- ddply(finalSet, .(Activity, Subject), numcolwise(mean))
-write.table(finalData, file="./Final Data.txt", row.name=FALSE)
+finalOut <- ddply(finalSet, .(Activity, Subject), numcolwise(mean))
+write.table(finalOut, file="./FinalData.txt", row.name=FALSE)
+#
+#Acronym version for better display the data on screen
+acro <- finalOut
+names(acro) <- gsub("[a-z]", "", names(acro))
+colnames(acro)[[1]] <- "Activity"
+colnames(acro)[[2]] <- "Subject"
+write.table(acro, file="./FinalDataAcronym.txt", row.name=FALSE)
