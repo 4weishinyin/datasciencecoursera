@@ -83,9 +83,9 @@ You may run the *_"run_analysis.R"_* script to perform the following:
  For better on screen data display purpose,  *_FinalDataAcronym.txt_* is also created which uses acronym of the long descriptive 
  for output.  
  
- *_'load_data.R'_* script is provided in case you want to to load the above data into R for further analysis. You may detach the 
- above files to R's current working directory. Make sure you rename the detached files to *_FinalData.txt_* and *_FinalDataAcronym.txt_* 
- accordingly before run the *_'load_data.R'_* script.
+ A *_'load_data.R'_* script is also provided should you desire to load the above data into R for further analysis. You may detach the 
+ above files to R's current working directory and be sure you rename the detached files as *_FinalData.txt_* and *_FinalDataAcronym.txt_* 
+ accordingly before you run the *_'load_data.R'_* script.
  
  
  
