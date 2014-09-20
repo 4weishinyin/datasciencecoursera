@@ -1,6 +1,6 @@
  Data Dictionary
  
- [1]  Activity 									  18    
+ [1]  Activity 									  18 chr  
  				
  		Activity Name
  				 LAYING              
@@ -10,97 +10,97 @@
 			     WALKING_DOWNSTAIRS  
 				 WALKING_UPSTAIRS  
 				                                            
- [2]  Subject         							   2
+ [2]  Subject         							   2 int
  
         Subject Identifier
                 1:30      
                                                    
- [3]  TimeBodyAccelerometerMeanX  				   16   
+ [3]  TimeBodyAccelerometerMeanX  				   16 num (Sec)  
 
         The computed average of the Time Body Accelerometer Mean X-axial measurement 
         per activity/subject 
                                         
- [4]  TimeBodyAccelerometerMeanY				   16   
+ [4]  TimeBodyAccelerometerMeanY				   16 num (Sec)   
 
         The computed average of the Time Body Accelerometer Mean Y-axial measurement 
         per activity/subject 
 
- [5]  TimeBodyAccelerometerMeanZ				   16                               
+ [5]  TimeBodyAccelerometerMeanZ				   16 num (Sec)                              
 
         The computed average of the Time Body Accelerometer Mean Z-axial measurement 
         per activity/subject 
 
- [6]  TimeGravityAccelerometerMeanX  			   16                          
+ [6]  TimeGravityAccelerometerMeanX  			   16 num (Sec)                         
 
         The computed average of the Time Gravity Accelerometer Mean X-axial measurement 
         per activity/subject 
 
- [7]  TimeGravityAccelerometerMeanY                16               
+ [7]  TimeGravityAccelerometerMeanY                16 num (Sec)              
 
         [7] - [68] are the computed average of the respective measurement.  
         Please refer to '** Note' below for more explanations.
 
- [8]  TimeGravityAccelerometerMeanZ                16               
- [9]  TimeBodyAccelerometerJerkMeanX               16               
-[10]  TimeBodyAccelerometerJerkMeanY               16               
-[11]  TimeBodyAccelerometerJerkMeanZ               16               
-[12]  TimeBodyGyroscopeMeanX                       16               
-[13]  TimeBodyGyroscopeMeanY                       16               
-[14]  TimeBodyGyroscopeMeanZ                       16               
-[15]  TimeBodyGyroscopeJerkMeanX                   16               
-[16]  TimeBodyGyroscopeJerkMeanY                   16               
-[17]  TimeBodyGyroscopeJerkMeanZ                   16               
-[18]  TimeBodyAccelerometerMagnitudeMean           16               
-[19]  TimeGravityAccelerometerMagnitudeMean        16               
-[20]  TimeBodyAccelerometerJerkMagnitudeMean       16               
-[21]  TimeBodyGyroscopeMagnitudeMean               16               
-[22]  TimeBodyGyroscopeJerkMagnitudeMean           16               
-[23]  FrequencyBodyAccelerometerMeanX              16               
-[24]  FrequencyBodyAccelerometerMeanY              16               
-[25]  FrequencyBodyAccelerometerMeanZ              16               
-[26]  FrequencyBodyAccelerometerJerkMeanX          16               
-[27]  FrequencyBodyAccelerometerJerkMeanY          16               
-[28]  FrequencyBodyAccelerometerJerkMeanZ          16               
-[29]  FrequencyBodyGyroscopeMeanX                  16               
-[30]  FrequencyBodyGyroscopeMeanY                  16               
-[31]  FrequencyBodyGyroscopeMeanZ                  16               
-[32]  FrequencyBodyAccelerometerMagnitudeMean      16               
-[33]  FrequencyBodyAccelerometerJerkMagnitudeMean  16            
-[34]  FrequencyBodyGyroscopeMagnitudeMean          16               
-[35]  FrequencyBodyGyroscopeJerkMagnitudeMean      16               
-[36]  TimeBodyAccelerometerStandardDeviationX      16               
-[37]  TimeBodyAccelerometerStandardDeviationY      16               
-[38]  TimeBodyAccelerometerStandardDeviationZ      16               
-[39]  TimeGravityAccelerometerStandardDeviationX   16             
-[40]  TimeGravityAccelerometerStandardDeviationY   16             
-[41]  TimeGravityAccelerometerStandardDeviationZ   16            
-[42]  TimeBodyAccelerometerJerkStandardDeviationX  16            
-[43]  TimeBodyAccelerometerJerkStandardDeviationY  16            
-[44]  TimeBodyAccelerometerJerkStandardDeviationZ  16            
-[45]  TimeBodyGyroscopeStandardDeviationX          16               
-[46]  TimeBodyGyroscopeStandardDeviationY          16               
-[47]  TimeBodyGyroscopeStandardDeviationZ          16               
-[48]  TimeBodyGyroscopeJerkStandardDeviationX      16               
-[49]  TimeBodyGyroscopeJerkStandardDeviationY      16               
-[50]  TimeBodyGyroscopeJerkStandardDeviationZ                     16               
-[51]  TimeBodyAccelerometerMagnitudeStandardDeviation             16     
-[52]  TimeGravityAccelerometerMagnitudeStandardDeviation          16     
-[53]  TimeBodyAccelerometerJerkMagnitudeStandardDeviation         16     
-[54]  TimeBodyGyroscopeMagnitudeStandardDeviation                 16     
-[55]  TimeBodyGyroscopeJerkMagnitudeStandardDeviation             16     
-[56]  FrequencyBodyAccelerometerStandardDeviationX                16     
-[57]  FrequencyBodyAccelerometerStandardDeviationY                16     
-[58]  FrequencyBodyAccelerometerStandardDeviationZ                16     
-[59]  FrequencyBodyAccelerometerJerkStandardDeviationX            16     
-[60]  FrequencyBodyAccelerometerJerkStandardDeviationY            16     
-[61]  FrequencyBodyAccelerometerJerkStandardDeviationZ            16     
-[62]  FrequencyBodyGyroscopeStandardDeviationX                    16     
-[63]  FrequencyBodyGyroscopeStandardDeviationY                    16     
-[64]  FrequencyBodyGyroscopeStandardDeviationZ            		  16     
-[65]  FrequencyBodyAccelerometerMagnitudeStandardDeviation        16    
-[66]  FrequencyBodyAccelerometerJerkMagnitudeStandardDeviation    16
-[67]  FrequencyBodyGyroscopeMagnitudeStandardDeviation        16    
-[68]  FrequencyBodyGyroscopeJerkMagnitudeStandardDeviation        16    
+ [8]  TimeGravityAccelerometerMeanZ                16 num (Sec)              
+ [9]  TimeBodyAccelerometerJerkMeanX               16 num (Sec)              
+[10]  TimeBodyAccelerometerJerkMeanY               16 num (Sec)              
+[11]  TimeBodyAccelerometerJerkMeanZ               16 num (Sec)              
+[12]  TimeBodyGyroscopeMeanX                       16 num (Sec)              
+[13]  TimeBodyGyroscopeMeanY                       16 num (Sec)              
+[14]  TimeBodyGyroscopeMeanZ                       16 num (Sec)              
+[15]  TimeBodyGyroscopeJerkMeanX                   16 num (Sec)              
+[16]  TimeBodyGyroscopeJerkMeanY                   16 num (Sec)              
+[17]  TimeBodyGyroscopeJerkMeanZ                   16 num (Sec)              
+[18]  TimeBodyAccelerometerMagnitudeMean           16 num (Sec)              
+[19]  TimeGravityAccelerometerMagnitudeMean        16 num (Sec)              
+[20]  TimeBodyAccelerometerJerkMagnitudeMean       16 num (Sec)              
+[21]  TimeBodyGyroscopeMagnitudeMean               16 num (Sec)              
+[22]  TimeBodyGyroscopeJerkMagnitudeMean           16 num (Sec)              
+[23]  FrequencyBodyAccelerometerMeanX              16 num (Hz)              
+[24]  FrequencyBodyAccelerometerMeanY              16 num (Hz)              
+[25]  FrequencyBodyAccelerometerMeanZ              16 num (Hz)              
+[26]  FrequencyBodyAccelerometerJerkMeanX          16 num (Hz)              
+[27]  FrequencyBodyAccelerometerJerkMeanY          16 num (Hz)              
+[28]  FrequencyBodyAccelerometerJerkMeanZ          16 num (Hz)              
+[29]  FrequencyBodyGyroscopeMeanX                  16 num (Hz)              
+[30]  FrequencyBodyGyroscopeMeanY                  16 num (Hz)              
+[31]  FrequencyBodyGyroscopeMeanZ                  16 num (Hz)              
+[32]  FrequencyBodyAccelerometerMagnitudeMean      16 num (Hz)              
+[33]  FrequencyBodyAccelerometerJerkMagnitudeMean  16 num (Hz)           
+[34]  FrequencyBodyGyroscopeMagnitudeMean          16 num (Hz)              
+[35]  FrequencyBodyGyroscopeJerkMagnitudeMean      16 num (Hz)              
+[36]  TimeBodyAccelerometerStandardDeviationX      16 num (Sec)              
+[37]  TimeBodyAccelerometerStandardDeviationY      16 num (Sec)              
+[38]  TimeBodyAccelerometerStandardDeviationZ      16 num (Sec)              
+[39]  TimeGravityAccelerometerStandardDeviationX   16 num (Sec)            
+[40]  TimeGravityAccelerometerStandardDeviationY   16 num (Sec)            
+[41]  TimeGravityAccelerometerStandardDeviationZ   16 num (Sec)           
+[42]  TimeBodyAccelerometerJerkStandardDeviationX  16 num (Sec)           
+[43]  TimeBodyAccelerometerJerkStandardDeviationY  16 num (Sec)           
+[44]  TimeBodyAccelerometerJerkStandardDeviationZ  16 num (Sec)           
+[45]  TimeBodyGyroscopeStandardDeviationX          16 num (Sec)              
+[46]  TimeBodyGyroscopeStandardDeviationY          16 num (Sec)              
+[47]  TimeBodyGyroscopeStandardDeviationZ          16 num (Sec)              
+[48]  TimeBodyGyroscopeJerkStandardDeviationX      16 num (Sec)              
+[49]  TimeBodyGyroscopeJerkStandardDeviationY      16 num (Sec)              
+[50]  TimeBodyGyroscopeJerkStandardDeviationZ                     16 num (Sec)              
+[51]  TimeBodyAccelerometerMagnitudeStandardDeviation             16 num (Sec)    
+[52]  TimeGravityAccelerometerMagnitudeStandardDeviation          16 num (Sec)    
+[53]  TimeBodyAccelerometerJerkMagnitudeStandardDeviation         16 num (Sec)    
+[54]  TimeBodyGyroscopeMagnitudeStandardDeviation                 16 num (Sec)    
+[55]  TimeBodyGyroscopeJerkMagnitudeStandardDeviation             16 num (Sec)    
+[56]  FrequencyBodyAccelerometerStandardDeviationX                16 num (Hz)    
+[57]  FrequencyBodyAccelerometerStandardDeviationY                16 num (Hz)    
+[58]  FrequencyBodyAccelerometerStandardDeviationZ                16 num (Hz)    
+[59]  FrequencyBodyAccelerometerJerkStandardDeviationX            16 num (Hz)    
+[60]  FrequencyBodyAccelerometerJerkStandardDeviationY            16 num (Hz)    
+[61]  FrequencyBodyAccelerometerJerkStandardDeviationZ            16 num (Hz)    
+[62]  FrequencyBodyGyroscopeStandardDeviationX                    16 num (Hz)    
+[63]  FrequencyBodyGyroscopeStandardDeviationY                    16 num (Hz)    
+[64]  FrequencyBodyGyroscopeStandardDeviationZ            		  16 num (Hz)    
+[65]  FrequencyBodyAccelerometerMagnitudeStandardDeviation        16 num (Hz)   
+[66]  FrequencyBodyAccelerometerJerkMagnitudeStandardDeviation    16 num (Hz)
+[67]  FrequencyBodyGyroscopeMagnitudeStandardDeviation            16 num (Hz)
+[68]  FrequencyBodyGyroscopeJerkMagnitudeStandardDeviation        16 num (Hz)   
 
 ** Note: [3] - [68] stores the computed average of each of the 66 measurements of 
 the mean and the standard deviation measurement per activity/subject. The field names 
