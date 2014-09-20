@@ -1,5 +1,5 @@
- # The data link below provided by the course website represents data collected from the accelerometers 
- # from the Samsung Galaxy S smartphone 
+# The data link below provided by the course website represents data collected from the accelerometers 
+# from the Samsung Galaxy S smartphone 
   
 
       https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
@@ -34,20 +34,16 @@ _Note that_ features may be the raw signals measured, the derivations or the tra
 
      
  - Use descriptive activity names from the activity labels to name the activities performed for the data sets; by joining 
-   the y'test' or y'train' and activity_labels. 
-   # This is project step 3 
+   the y'test' or y'train' and activity_labels. (project step 3) 
    
  - Combine into the datasets (X test/train), the subject identifiers (subject test/train) and the descriptive activity names (y_xxx). 
   
- - Merge the training set (X train) and the test set (X test) to create one consolidated dataset. 
-   #This is project step 1 
+ - Merge the training set (X train) and the test set (X test) to create one consolidated dataset. (project step 1) 
 
  - Extract only the measurements on the mean and standard deviation for each measurement. Note that the features 
-   contain "angle" or "meanFreq" are excluded from this analysis.
-   #This is project step 2
+   contain "angle" or "meanFreq" are excluded from this analysis. (project step 2)
 
- - Appropriately label the data set with descriptive variable names.  using the following methodology.  
-   #This is project step 4
+ - Appropriately label the data set with descriptive variable names.  using the following methodology. (project step 4)
     
    The complete list of descriptive variable names is available in 'CodeBook.txt'  
    
@@ -61,7 +57,7 @@ _Note that_ features may be the raw signals measured, the derivations or the tra
          * match "()" or "-" pattern, the matched is removed
          * retain "X", "Y", "Z" character representing the various axial direction
          
-         For example; an original name of 'tBodyAccMeanY' will be transformed into 'TimeBodyAccelerometerMeanY'.         
+   For example; an original name of 'tBodyAccMeanY' will be transformed to 'TimeBodyAccelerometerMeanY'.         
                
  - From the merged data set, creates a second, independent tidy dataset. 
    <<<<< This is project step 5 >>>>>   
