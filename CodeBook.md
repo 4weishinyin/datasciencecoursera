@@ -107,7 +107,8 @@ the mean and the standard deviation measurement per activity/subject. The field 
 shown at the data dictionary above, [3] -[68], are renames of the original data set
 based on the following mechanism:
    
-   For column names that 
+   For column names that
+    
          1. match "BodyBody" pattern, the matched is substituted with "Body" 
             due to the typo in the data source
          2. start with "t", the matched is substituted with "Time"
